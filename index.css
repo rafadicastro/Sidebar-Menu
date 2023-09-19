@@ -15,16 +15,16 @@
     --toggle-color: #ddd;
     --text-color: #707070;
 
-    --tran-03: all 0.2s ease;
-    --tran-04: all 0.3s ease;
-    --tran-05: all 0.4s ease;
-    --tran-06: all 0.5s ease;
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
 }
 
 body{
     height: 100vh;
     background: var(--body-color);
-    transition: var(--tran-06);
+    transition: var(--tran-05);
 }
 
 body.dark{
@@ -46,7 +46,7 @@ body.dark{
     width: 250px;
     padding: 10px 14px;
     background: var(--sidebar-color);
-    transition: var(--tran-06);
+    transition: var(--tran-05);
     z-index: 100;
 }
 
@@ -58,7 +58,7 @@ body.dark{
     font-size: 16px;
     font-weight: 500;
     color: var(--text-color);
-    transition: var(--tran-04);
+    transition: var(--tran-03);
     white-space: nowrap;
     opacity: 1;
 }
@@ -136,7 +136,7 @@ header .image-text .header-text{
     border-radius: 50%;
     color: var(--sidebar-color);
     font-size: 22px;
-    transition: var(--tran-04);
+    transition: var(--tran-03);
 }
 
 .sidebar.close header .toggle{
@@ -144,7 +144,6 @@ header .image-text .header-text{
 }
 
 body.dark .sidebar header .toggle{
-    
     color: var(--text-color);
 }
 .sidebar .menu{
@@ -153,7 +152,7 @@ body.dark .sidebar header .toggle{
 .sidebar .search-box{
     border-radius: 6px;
     background: var(--primary-color-light);
-    transition: var(--tran-06);
+    transition: var(--tran-05);
 }
 
 .search-box input {
@@ -174,7 +173,7 @@ body.dark .sidebar header .toggle{
     align-items: center;
     text-decoration: none;
     border-radius: 6px;
-    transition: var(--tran-04);
+    transition: var(--tran-03);
 }
 
 .sidebar li a:hover{
@@ -213,7 +212,7 @@ body.dark .sidebar li a:hover .text{
 
 .menu-bar .mode i{
     position: absolute;
-    transition: var(--tran-04);
+    transition: var(--tran-03);
 }
 
 .menu-bar .mode i.sun{
@@ -239,7 +238,7 @@ body.dark .menu-bar .mode i.moon{
     cursor: pointer;
     border-radius: 6px;
     background: var(--primary-color-light);
-    transition: var(--tran-06);
+    transition: var(--tran-05);
 }
 
 .toggle-switch .switch{
@@ -260,7 +259,7 @@ body.dark .menu-bar .mode i.moon{
     left: 5px;
     transform: translateY(-50%);
     background: var(--sidebar-color);
-    transition: var(--tran-03);
+    transition: var(--tran-02);
 }
 
 body.dark .switch::before{
@@ -273,7 +272,7 @@ body.dark .switch::before{
     height: 100vh;
     width: calc(100% - 250px);
     color: var(--body-color);
-    transition: var(--tran-06);
+    transition: var(--tran-05);
 }
 
 .home .text{
